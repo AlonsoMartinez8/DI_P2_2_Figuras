@@ -4,7 +4,8 @@ En esta práctica tendremos que implementar clases que hereden de la clase abstr
 y mostrar las características de todas ellas (las figuras) en modo texto por consola, con independencia de la subclase a la que pertenezcan.
 
 Esta práctica se entregará mediante un enlace a GitHub de vuestro repositorio.
-Recordad que las carpetas _bin_ y _obj_ no hace falta que estén 
+Recordad que las carpetas _bin_ y _obj_ no hace falta que estén incluidas en los commits, ya que se 
+generan de manera automática al compilar y ejecutar el proyecto.
 
 
 ## En primer lugar
