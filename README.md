@@ -45,34 +45,34 @@ Modificaremos algún parámetro de cada una de las figuras y volveremos a mostra
 ver que el cambio se ha llevado a cabo. 
 
 ## En cuarto  lugar 
-En el Main crearemos una instancia de *List* llamado *lista_figuras* que pueda contener objetos tipo *Figura*.
+En el Main crearemos una instancia de *List* llamado **lista_figuras** que pueda contener objetos tipo *Figura*.
 
 Crearemos 6 instancias de figuras distintas de los tipos creados y los añadiremos a dicha lista.
 
-Crearemos un bucle para recorrer la Lista:
+Crearemos un bucle para recorrer la Lista y mostrar cada una de las figuras por consola junto con su área de cada una:
 
 ### La salida para imprimir el objeto lista_figuras ha de quedar algo similar a esto
 
 ________________________
 FIGURA RECTANGULO
-Alto:3
-Ancho:3.9
-Color: Color [A=255, R=50, G=20, B=34]
-Area: 11.7
+- Alto:3
+- Ancho:3.9
+- Color: Color [A=255, R=50, G=20, B=34]
+- Area: 11.7
 _____________________
 FIGURA CÍRCULO
-Radio:4
-Color: Color [A=255, R=0, G=20, B=35]
-Area: 50.26
+- Radio:4
+- Color: Color [A=255, R=0, G=20, B=35]
+- Area: 50.26
 _____________________
 FIGURA CÍRCULO
-Radio:2
-Color: Color [A=255, R=230, G=20, B=30]
-Area: 12.56
+- Radio:2
+- Color: Color [A=255, R=230, G=20, B=30]
+- Area: 12.56
 _____________________
 FIGURA TRIÁNGULO EQUILÁTERO
-Lado:3
-Color: Color [A=255, R=0, G=20, B=40]
+- Lado:3
+- Color: Color [A=255, R=0, G=20, B=40]
 
 ## En quinto lugar
 
