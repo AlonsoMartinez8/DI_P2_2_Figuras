@@ -10,10 +10,10 @@ generan de manera automática al compilar y ejecutar el proyecto.
 
 ## En primer lugar
 Comenzaremos clonando este repositorio en nuestro disco duro. 
-Crearemos un repositorio propio en github llamado *P2_2_Figuras* e iremos subiendo de manera sucesiva los avances haciendo la práctica. No se permite subir de golpe todo el proyecto. De esta manera el profesor puede ver los avances hechos paso a paso. 
-*El repositorio ha de ser privado para evitar plagio y solo se hará público cuando finalice la entrega de la tarea*
+Crearemos un repositorio propio en github llamado **P2_2_Figuras** e iremos subiendo de manera sucesiva los avances haciendo la práctica. No se permite subir de golpe todo el proyecto. De esta manera el profesor puede ver los avances hechos paso a paso. 
+**El repositorio ha de ser privado para evitar plagio y solo se hará público cuando finalice la entrega de la tarea**
 No se permitirán _commits_ después de la fecha límite de entrega. 
-En el fichero de descripción del repositorio *README.md* pondremos el nombre del autor o autora de la práctica así como una breve descripción de la misma. 
+En el fichero de descripción del repositorio **README.md** pondremos el nombre del autor o autora de la práctica así como una breve descripción de la misma. 
 
 
 
@@ -22,9 +22,10 @@ Crearemos las subclases que hereden de la clase abstract *Figura*
 Hay que tener en cuenta que los métodos constructores de cada una de las figuras han de
 aceptar el *color* (que ha de ser una estructura *Color*) como parámetro de entrada y ya ,dependiendo de cada figura, los otros parámetros necesarios. 
 Crearemos al menos las siguientes clases para distintos tipos de figuras:
-### Rectángulo ( tendrá una base y una altura)
-### Círculo (Tendrá un radio)
-### TriánguloEquilátero (tendrá la longitud del lado)
+- Rectángulo ( tendrá una base y una altura)
+- Círculo (Tendrá un radio)
+- TriánguloEquilátero (tendrá la longitud del lado)
+  
 Los atributos propios de las clases creadas tendrán que declararse con un modificador de acceso que permita acceder desde dentro de la propia clase y desde cualquier clase derivada (en el ensamblado o no).
 Tendremos que crear por lo tanto métodos *getters* y *setters* para esos atributos. 
 
@@ -34,9 +35,9 @@ También sobreescribiremos el método *ToString()* para que cuando intentemos
 mostrar por consola una figura nos salga en un formato similar a esto:
 ________________________
 FIGURA RECTANGULO
-Alto:3
-Ancho:3.9
-Color: Color [A=255, R=50, G=20, B=34]
+- Alto:3
+- Ancho:3.9
+- Color: Color [A=255, R=50, G=20, B=34]
 
 ## En tercer Lugar
 En el Main, crearemos una instancia de cada uno de las figuras programadas y las mostraremos por consola, así como mostraremos el área de cada una de ellas.
