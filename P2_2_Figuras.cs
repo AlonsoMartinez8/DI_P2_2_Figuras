@@ -16,11 +16,15 @@ public class P2_2_Figuras
     Console.WriteLine("\tArea: " + miRectangulo.GetArea());
 
     // CIRCULO
-    Circulo  miCirculo = new Circulo(Color.FromArgb(255, 50, 20, 34), 4);
+    Circulo  miCirculo = new Circulo(Color.FromArgb(255, 230, 20, 30), 4);
     Console.WriteLine(miCirculo.ToString());
     Console.WriteLine("\tArea: " + miCirculo.GetArea());
 
     // TRIANGULO
+    Triangulo  miTriangulo = new Triangulo(Color.FromArgb(255, 0, 20, 40), 3);
+    Console.WriteLine(miTriangulo.ToString());
+    Console.WriteLine("\tArea: " + miTriangulo.GetArea());
+
   }
 
 }
