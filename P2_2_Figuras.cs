@@ -10,7 +10,8 @@ public class P2_2_Figuras
 {
   static void Main(string[] args)
   {
-
+    Rectangulo  miRectangulo = new Rectangulo(Color.FromArgb(255, 50, 20, 34), 3, 3.9);
+    Console.WriteLine(miRectangulo.ToString());
   }
 
 }
