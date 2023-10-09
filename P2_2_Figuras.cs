@@ -14,21 +14,21 @@ public class P2_2_Figuras
     List<Figura> lista_figuras = new List<Figura>();
 
     // RECTANGULO
-    Rectangulo  miRectangulo = new Rectangulo("miRECTANGULO", Color.FromArgb(255, 50, 20, 34), 3, 3.9);
+    Rectangulo miRectangulo = new Rectangulo("miRECTANGULO", Color.FromArgb(255, 50, 20, 34), 3, 3.9);
     Console.WriteLine(miRectangulo.ToString());
     Console.WriteLine("\tArea: " + miRectangulo.GetArea());
     // añado a la lista de figuras
     lista_figuras.Add(miRectangulo);
 
     // CIRCULO
-    Circulo  miCirculo = new Circulo("miCIRCULO", Color.FromArgb(255, 230, 20, 30), 4);
+    Circulo miCirculo = new Circulo("miCIRCULO", Color.FromArgb(255, 230, 20, 30), 4);
     Console.WriteLine(miCirculo.ToString());
     Console.WriteLine("\tArea: " + miCirculo.GetArea());
     // añado a la lista de figuras
     lista_figuras.Add(miCirculo);
 
     // TRIANGULO
-    Triangulo  miTriangulo = new Triangulo("miTRIANGULO EQUILATERO", Color.FromArgb(255, 0, 20, 40), 3);
+    Triangulo miTriangulo = new Triangulo("miTRIANGULO EQUILATERO", Color.FromArgb(255, 0, 20, 40), 3);
     Console.WriteLine(miTriangulo.ToString());
     Console.WriteLine("\tArea: " + miTriangulo.GetArea());
     // añado a mi lista de figuras
@@ -42,6 +42,13 @@ public class P2_2_Figuras
     lista_figuras.Add(miCirculo2);
     lista_figuras.Add(miTriangulo2);
 
+    //Bucle para recorrer la lista y poner todas las figuras del mismo color
+    Color color = Color.FromArgb(20, 90, 40, 10);
+    foreach (var figura in lista_figuras)
+    {
+      figura.setColor(color);
+    }
+
     // Bucle para mostrar las figuras de la lista
     Console.WriteLine("\n________________\nLISTA DE FIGURAS");
     foreach (var figura in lista_figuras)
@@ -49,6 +56,14 @@ public class P2_2_Figuras
       Console.WriteLine(figura.ToString());
       Console.WriteLine("\tArea: " + figura.GetArea());
     }
+
+    // Bucle que recorra la lista y sume las áreas de todas las figuras
+    double suma = 0;
+    foreach (var figura in lista_figuras)
+    {
+      suma+=figura.GetArea();
+    }
+    Console.WriteLine($"\n________________\nSUMA DE LOS ÁREAS\n\t= {suma}");
 
   }
 
