@@ -10,8 +10,17 @@ public class P2_2_Figuras
 {
   static void Main(string[] args)
   {
+    // RECTANGULO
     Rectangulo  miRectangulo = new Rectangulo(Color.FromArgb(255, 50, 20, 34), 3, 3.9);
     Console.WriteLine(miRectangulo.ToString());
+    Console.WriteLine("\tArea: " + miRectangulo.GetArea());
+
+    // CIRCULO
+    Circulo  miCirculo = new Circulo(Color.FromArgb(255, 50, 20, 34), 4);
+    Console.WriteLine(miCirculo.ToString());
+    Console.WriteLine("\tArea: " + miCirculo.GetArea());
+
+    // TRIANGULO
   }
 
 }

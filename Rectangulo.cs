@@ -11,5 +11,5 @@ class Rectangulo : Figura {
         _ancho = ancho;
     }
     public override double GetArea() => _alto * _ancho;
-    public override string ToString() => "\nRectangulo:\n\t" + _color + "\n\tAlto: " + _alto + "\n\tAncho: " + _ancho + "\n";
+    public override string ToString() => "\nRectangulo:\n\t" + _color + "\n\tAlto: " + _alto + "\n\tAncho: " + _ancho;
 }
